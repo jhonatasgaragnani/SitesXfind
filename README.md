@@ -1,71 +1,302 @@
-# [Start Bootstrap - Creative](https://startbootstrap.com/template-overviews/creative/)
+<nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
 
-[Creative](http://startbootstrap.com/template-overviews/creative/) is a one page creative theme for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/).
+<div class="container">[HOME](#page-top)<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
 
-## Preview
+<div class="collapse navbar-collapse" id="navbarResponsive">
 
-[![Creative Preview](https://startbootstrap.com/assets/img/templates/creative.jpg)](https://blackrockdigital.github.io/startbootstrap-creative/)
+*   [Sobre](#about)
+*   [Serviços](#services)
+*   [Portfólio](#portfolio)
+*   [Contato](#contact)
 
-**[View Live Preview](https://blackrockdigital.github.io/startbootstrap-creative/)**
+</div>
 
-## Status
+</div>
 
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/BlackrockDigital/startbootstrap-creative/master/LICENSE)
-[![npm version](https://img.shields.io/npm/v/startbootstrap-creative.svg)](https://www.npmjs.com/package/startbootstrap-creative)
-[![Build Status](https://travis-ci.org/BlackrockDigital/startbootstrap-creative.svg?branch=master)](https://travis-ci.org/BlackrockDigital/startbootstrap-creative)
-[![dependencies Status](https://david-dm.org/BlackrockDigital/startbootstrap-creative/status.svg)](https://david-dm.org/BlackrockDigital/startbootstrap-creative)
-[![devDependencies Status](https://david-dm.org/BlackrockDigital/startbootstrap-creative/dev-status.svg)](https://david-dm.org/BlackrockDigital/startbootstrap-creative?type=dev)
+</nav>
 
-## Download and Installation
+<header class="masthead text-center text-white d-flex">
 
-To begin using this template, choose one of the following options to get started:
-* [Download the latest release on Start Bootstrap](https://startbootstrap.com/template-overviews/creative/)
-* Install via npm: `npm i startbootstrap-creative`
-* Clone the repo: `git clone https://github.com/BlackrockDigital/startbootstrap-creative.git`
-* [Fork, Clone, or Download on GitHub](https://github.com/BlackrockDigital/startbootstrap-creative)
+<div class="container my-auto">
 
-## Usage
+<div class="row">
 
-### Basic Usage
+<div class="col-lg-10 mx-auto">
 
-After downloading, simply edit the HTML and CSS files included with the template in your favorite text editor to make changes. These are the only files you need to worry about, you can ignore everything else! To preview the changes you make to the code, you can open the `index.html` file in your web browser.
+# **![Logo](img/logo.png)** 
 
-### Advanced Usage
+* * *
 
-After installation, run `npm install` and then run `gulp dev` which will open up a preview of the template in your default browser, watch for changes to core template files, and live reload the browser when changes are saved. You can view the `gulpfile.js` to see which tasks are included with the dev environment.
+</div>
 
-#### Gulp Tasks
+<div class="col-lg-8 mx-auto">
 
-- `gulp` the default task that builds everything
-- `gulp dev` browserSync opens the project in your default browser and live reloads when changes are made
-- `gulp sass` compiles SCSS files into CSS
-- `gulp minify-css` minifies the compiled CSS file
-- `gulp minify-js` minifies the themes JS file
-- `gulp copy` copies dependencies from node_modules to the vendor directory
+Bem-vindo ao nosso serviço online de Web Sites!
 
-## Bugs and Issues
+[Descubra mais!](#about)</div>
 
-Have a bug or an issue with this template? [Open a new issue](https://github.com/BlackrockDigital/startbootstrap-creative/issues) here on GitHub or leave a comment on the [template overview page at Start Bootstrap](http://startbootstrap.com/template-overviews/creative/).
+</div>
 
-## Custom Builds
+</div>
 
-You can hire Start Bootstrap to create a custom build of any template, or create something from scratch using Bootstrap. For more information, visit the **[custom design services page](https://startbootstrap.com/bootstrap-design-services/)**.
+</header>
 
-## About
+<section class="bg-primary" id="about">
 
-Start Bootstrap is an open source library of free Bootstrap templates and themes. All of the free templates and themes on Start Bootstrap are released under the MIT license, which means you can use them for any purpose, even for commercial projects.
+<div class="container">
 
-* https://startbootstrap.com
-* https://twitter.com/SBootstrap
+<div class="row">
 
-Start Bootstrap was created by and is maintained by **[David Miller](http://davidmiller.io/)**, Owner of [Blackrock Digital](http://blackrockdigital.io/).
+<div class="col-lg-8 mx-auto text-center">
 
-* http://davidmiller.io
-* https://twitter.com/davidmillerskt
-* https://github.com/davidtmiller
+## Tudo que você precisa, nós oferecemos a você!
 
-Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
+* * *
 
-## Copyright and License
+Veja o mundo de uma forma diferente e inovadora, aqui seus sonhos são a realidade, crie a internet a sua cara, através de nossos produtos, faça do seu negócio sucesso, transforme-se!
 
-Copyright 2013-2017 Blackrock Digital LLC. Code released under the [MIT](https://github.com/BlackrockDigital/startbootstrap-creative/blob/gh-pages/LICENSE) license.
+[Vamos começar?](#services)</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section id="services">
+
+<div class="container">
+
+<div class="row">
+
+<div class="col-lg-12 text-center">
+
+## Nossos serviços
+
+* * *
+
+</div>
+
+</div>
+
+</div>
+
+<div class="container">
+
+<div class="row">
+
+<div class="col-lg-3 col-md-6 text-center">
+
+<div class="service-box mt-5 mx-auto">
+
+### Desenvolvimento WEB
+
+Criação de sites inovadores, responsívos, adaptáveis, com um estilo todo seu! Trabalhamos com os principais gerenciadores de conteúdo do mercado nacional e internacional. Atualize-se!
+
+</div>
+
+</div>
+
+<div class="col-lg-3 col-md-6 text-center">
+
+<div class="service-box mt-5 mx-auto">
+
+### Não importa quem você é
+
+Construção de sites para profissionais liberais, micros, médias ou grandes empresas. Possuímos planos básicos e personalizados, que transformarão seu negócio!
+
+</div>
+
+</div>
+
+<div class="col-lg-3 col-md-6 text-center">
+
+<div class="service-box mt-5 mx-auto">
+
+### Hospedagem e Domínio!
+
+Hospedamos seu site nos melhores servidores nacionais e internacionais. Ajudamos você a encontrar seu melhor domínio. Faça da sua empresa o maior sucesso!
+
+</div>
+
+</div>
+
+<div class="col-lg-3 col-md-6 text-center">
+
+<div class="service-box mt-5 mx-auto">
+
+### Integração com Redes Sociais
+
+Integre o seu site com as principais redes sociais como Facebook, Twitter, YouTube e outras. Conecte-se ao mundo a sua volta!
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="p-0" id="portfolio">
+
+<div class="container-fluid p-0">
+
+<div class="row no-gutters popup-gallery">
+
+<div class="col-lg-4 col-sm-6">[![](img/portfolio/thumbnails/1.jpg)
+
+<div class="portfolio-box-caption">
+
+<div class="portfolio-box-caption-content">
+
+<div class="project-category text-faded">Template</div>
+
+<div class="project-name">Loja de Roupas</div>
+
+</div>
+
+</div>
+
+](img/portfolio/fullsize/1.jpg)</div>
+
+<div class="col-lg-4 col-sm-6">[![](img/portfolio/thumbnails/2.jpg)
+
+<div class="portfolio-box-caption">
+
+<div class="portfolio-box-caption-content">
+
+<div class="project-category text-faded">Template</div>
+
+<div class="project-name">Portifólio</div>
+
+</div>
+
+</div>
+
+](img/portfolio/fullsize/2.jpg)</div>
+
+<div class="col-lg-4 col-sm-6">[![](img/portfolio/thumbnails/3.jpg)
+
+<div class="portfolio-box-caption">
+
+<div class="portfolio-box-caption-content">
+
+<div class="project-category text-faded">Template</div>
+
+<div class="project-name">Loja</div>
+
+</div>
+
+</div>
+
+](img/portfolio/fullsize/3.jpg)</div>
+
+<div class="col-lg-4 col-sm-6">[![](img/portfolio/thumbnails/4.jpg)
+
+<div class="portfolio-box-caption">
+
+<div class="portfolio-box-caption-content">
+
+<div class="project-category text-faded">Template</div>
+
+<div class="project-name">Portifólio Casamento</div>
+
+</div>
+
+</div>
+
+](img/portfolio/fullsize/4.jpg)</div>
+
+<div class="col-lg-4 col-sm-6">[![](img/portfolio/thumbnails/5.jpg)
+
+<div class="portfolio-box-caption">
+
+<div class="portfolio-box-caption-content">
+
+<div class="project-category text-faded">Template</div>
+
+<div class="project-name">Portifólio Restaurante</div>
+
+</div>
+
+</div>
+
+](img/portfolio/fullsize/5.jpg)</div>
+
+<div class="col-lg-4 col-sm-6">[![](img/portfolio/thumbnails/6.jpg)
+
+<div class="portfolio-box-caption">
+
+<div class="portfolio-box-caption-content">
+
+<div class="project-category text-faded">Template</div>
+
+<div class="project-name">Portifólio Hotel</div>
+
+</div>
+
+</div>
+
+](img/portfolio/fullsize/6.jpg)</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="bg-dark text-white">
+
+<div class="container text-center">
+
+## Gostou?
+
+Venha fazer parte de uma nova forma de usar a internet!
+
+</div>
+
+</section>
+
+<section id="contact">
+
+<div class="container">
+
+<div class="row">
+
+<div class="col-lg-8 mx-auto text-center">
+
+## Contate-nos!
+
+* * *
+
+Entre em contato através do nosso e-mail ou telefone, faça seu orçamento!
+
+</div>
+
+</div>
+
+<div class="row">
+
+<div class="col-lg-4 ml-auto text-center">
+
++55 43 99636-3496
+
++55 43 99961-4929
+
+</div>
+
+<div class="col-lg-4 mr-auto text-center">
+
+[virtualdjhonata@hotmail.com](mailto:your-email@your-domain.com)
+
+[reginaldo.junior696@gmail.com](mailto:your-email@your-domain.com)
+
+</div>
+
+</div>
+
+</div>
+
+</section>
