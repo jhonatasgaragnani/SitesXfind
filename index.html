@@ -8,7 +8,8 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Xfind</title>
+    <title>Find</title>
+    <link rel="icon" href="favicon.ico">
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -27,6 +28,19 @@
   </head>
 
   <body id="page-top">
+
+  <!-- Preload
+  <div id="preload" class="preload">
+    <div id="loader">
+      <div class="battery">
+        <span class="battery_item"></span>
+        <span class="battery_item"></span>
+        <span class="battery_item"></span>
+      </div>
+      <div class="text">Loading ...</div>
+    </div>
+  </div>
+  -->
 
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
@@ -99,29 +113,29 @@
         <div class="row">
           <div class="col-lg-3 col-md-6 text-center">
             <div class="service-box mt-5 mx-auto">
-              <i class="fa fa-4x fa-globe text-primary mb-3 sr-icons"></i>
-              <h3 class="mb-3">Desenvolvimento WEB</h3>
+              <i class="icon"><img class="img" src="img/icons/icon01.png"></i>
+              <h3 class="mb-3 img-space">Desenvolvimento WEB</h3>
               <p class="text-muted mb-0">Criação de sites inovadores, responsívos, adaptáveis, com um estilo todo seu! Trabalhamos com os principais gerenciadores de conteúdo do mercado nacional e internacional. Atualize-se!</p>
             </div>
           </div>
           <div class="col-lg-3 col-md-6 text-center">
             <div class="service-box mt-5 mx-auto">
-              <i class="fa fa-4x fa-users text-primary mb-3 sr-icons"></i>
-              <h3 class="mb-3">Não importa quem você é</h3>
+              <i class="icon"><img class="img" src="img/icons/icon02.png"></i>
+              <h3 class="mb-3 img-space">Não importa quem você é</h3>
               <p class="text-muted mb-0">Construção de sites para profissionais liberais, micros, médias ou grandes empresas. Possuímos planos básicos e personalizados, que transformarão seu negócio! </p>
             </div>
           </div>
           <div class="col-lg-3 col-md-6 text-center">
             <div class="service-box mt-5 mx-auto">
-              <i class="fa fa-4x fa-server text-primary mb-3 sr-icons"></i>
-              <h3 class="mb-3">Hospedagem e Domínio!</h3>
+              <i class="icon"><img class="img" src="img/icons/icon03.png"></i>
+              <h3 class="mb-3 img-space">Hospedagem e Domínio!</h3>
               <p class="text-muted mb-0">Hospedamos seu site nos melhores servidores nacionais e internacionais. Ajudamos você a encontrar seu melhor domínio. Faça da sua empresa o maior sucesso!</p>
             </div>
           </div>
           <div class="col-lg-3 col-md-6 text-center">
             <div class="service-box mt-5 mx-auto">
-              <i class="fa fa-4x fa-share-alt text-primary mb-3 sr-icons"></i>
-              <h3 class="mb-3">Integração com Redes Sociais</h3>
+              <i class="icon"><img class="img" src="img/icons/icon04.png"></i>
+              <h3 class="mb-3 img-space">Integração com Redes Sociais</h3>
               <p class="text-muted mb-0">Integre o seu site com as principais redes sociais como Facebook, Twitter, YouTube e outras. Conecte-se ao mundo a sua volta!</p>
             </div>
           </div>
@@ -226,11 +240,43 @@
       </div>
     </section>
 
-    <section class="bg-dark text-white">
+    <section class="bg-white text-dark">
       <div class="container text-center">
-        <h2 class="mb-4">Gostou?</h2>
+        <h2 class="mb-4 text-red">Gostou?</h2>
         <p class="mb-5">Venha fazer parte de uma nova forma de usar a internet!</p>
       </div>
+    </section>
+
+    <section class="block-img">
+      <div class="container text-center text-white">
+        <h2 class="mb-4">Conheça Nossos <span class="text-red"> Desenvolvedores</span></h2>
+        <p class="mb-5">Somos Especialistas na Criação e Implantação de Sites e Sistemas</p>
+        <div class="person">
+          <img class="img" src="img/profile/img01.png">
+          <div class="text-block">
+          <h4>Jhonatas Garagnani</h4>
+          <h6>Web Developer - CEO</h6>
+              <p class="text-faded mb-5">+55 43 996369496</p>
+          </div>
+        </div>
+        <div class="person">
+          <img class="img" src="img/profile/img02.png">
+          <div class="text-block">
+          <h4>Reginaldo Junior</h4>
+          <h6>Web Developer</h6>
+              <p class="text-faded mb-5">+55 43 999614929</p>
+          </div>
+        </div>
+        <div class="person">
+          <img class="img" src="img/profile/img03.png">
+          <div class="text-block">
+          <h4>Ryan <br> Lucas</h4>
+          <h6>Web Developer</h6>
+              <p class="text-faded mb-5">+55 43 996714347</p>
+          </div>
+        </div>
+      </div>
+
     </section>
 
     <section id="contact">
@@ -246,20 +292,40 @@
           <div class="col-lg-4 ml-auto text-center">
             <i class="fa fa-phone fa-3x mb-3 sr-contact"></i>
             <p>+55 43 99636-3496</p>
-            <p>+55 43 99961-4929</p>
           </div>
           <div class="col-lg-4 mr-auto text-center">
             <i class="fa fa-envelope-o fa-3x mb-3 sr-contact"></i>
             <p>
-              <a href="mailto:your-email@your-domain.com">virtualdjhonata@hotmail.com</a>
-            </p>
-            <p>
-              <a href="mailto:your-email@your-domain.com">reginaldo.junior696@gmail.com</a>
+              <a href="mailto:your-email@your-domain.com">sites.xfind@gmail.com</a>
             </p>
           </div>
         </div>
       </div>
     </section>
+
+    <div class="white-to-top"><a href="#top"><img class="img-top" src="img/icons/back-to-top.png"></a></div>
+
+    <!--Footer-->
+    <section class="footer">
+        <div class="copyright text-dark text-faded">© 2018 <span class="text-red">XFind.</span> Todos os direitos reservados.</div>
+    </section>
+
+    <!--Footer Map-->
+    </div> <div id="map"></div>
+    <script>
+        function initMap() {
+            var uluru = {lat: -23.693182, lng: -49.827264};
+            var map = new google.maps.Map(document.getElementById('map'), {
+                zoom: 15,
+                center: uluru
+            });
+            var marker = new google.maps.Marker({
+                position: uluru,
+                map: map
+            });
+        }
+    </script>
+    </div>
 
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
@@ -273,6 +339,10 @@
     <!-- Custom scripts for this template -->
     <script src="js/creative.min.js"></script>
 
+    <!--Map-->
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAAF7yz4wdsKFhHDRru3hJsOBzT9gv-l5w&callback=initMap"
+            type="text/javascript"></script>
+    <script src="js/custom.js"></script>
   </body>
 
 </html>
