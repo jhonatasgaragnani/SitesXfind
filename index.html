@@ -40,9 +40,24 @@
       <div class="text">Loading ...</div>
     </div>
   </div>
-
-
-
+  <script>
+      window.onload = function(){
+          var div = document.getElementById('preload');
+          preload(div, 50);
+      };
+      function preload(el, interval){
+          var op = 1;
+          var timer = setInterval(function () {
+              if (op <= 0.1){
+                  clearInterval(timer);
+                  el.style.display = 'none';
+                  el.className = '';
+              }
+              el.style.opacity = op;
+              op -= op * 0.1;
+          }, interval);
+      }
+  </script>
 
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
@@ -346,25 +361,6 @@
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAAF7yz4wdsKFhHDRru3hJsOBzT9gv-l5w&callback=initMap"
             type="text/javascript"></script>
 
-  <--Preload-->
-  <script>
-      window.onload = function(){
-          var div = document.getElementById('preload');
-          preload(div, 50);
-      };
-      function preload(el, interval){
-          var op = 1;
-          var timer = setInterval(function () {
-              if (op <= 0.1){
-                  clearInterval(timer);
-                  el.style.display = 'none';
-                  el.className = '';
-              }
-              el.style.opacity = op;
-              op -= op * 0.1;
-          }, interval);
-      }
-  </script>
   </body>
 
 </html>
