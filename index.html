@@ -5,6 +5,7 @@
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
 
@@ -24,6 +25,26 @@
 
     <!-- Custom styles for this template -->
     <link href="css/creative.css" rel="stylesheet">
+
+    <!--Preloa-->
+    <script>
+        window.onload = function(){
+            var div = document.getElementById('preload');
+            preload(div, 50);
+        };
+        function preload(el, interval){
+            var op = 1;
+            var timer = setInterval(function () {
+                if (op <= 0.1){
+                    clearInterval(timer);
+                    el.style.display = 'none';
+                    el.className = '';
+                }
+                el.style.opacity = op;
+                op -= op * 0.1;
+            }, interval);
+        }
+    </script>
 
   </head>
 
@@ -302,7 +323,26 @@
       </div>
     </section>
 
-    <div class="white-to-top"><a href="#top"><img class="img-top" src="img/icons/back-to-top.png"></a></div>
+        <!--back to top button-->
+        <button onclick="topFunction()" id="myBtn" title="Go to top"><img class="img-top" src="img/icons/back-to-top.png"></button>
+      <script>
+
+        window.onscroll = function() {scrollFunction()};
+
+        function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("myBtn").style.display = "block";
+        } else {
+        document.getElementById("myBtn").style.display = "none";
+        }
+        }
+
+
+        function topFunction() {
+        document.body.scrollTop = 0; // For Safari
+        document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+        }
+      </script>
 
     <!--Footer-->
     <section class="footer">
@@ -326,24 +366,6 @@
     </script>
     </div>
 
-  <script>
-      window.onload = function(){
-          var div = document.getElementById('preload');
-          preload(div, 50);
-      };
-      function preload(el, interval){
-          var op = 1;
-          var timer = setInterval(function () {
-              if (op <= 0.1){
-                  clearInterval(timer);
-                  el.style.display = 'none';
-                  el.className = '';
-              }
-              el.style.opacity = op;
-              op -= op * 0.1;
-          }, interval);
-      }
-  </script>
 
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
