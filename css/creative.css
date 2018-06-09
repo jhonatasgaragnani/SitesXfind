@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 /*!
  * Start Bootstrap - Creative v4.0.0-beta.2 (https://startbootstrap.com/template-overviews/creative)
  * Copyright 2013-2017 Start Bootstrap
@@ -405,8 +405,8 @@ header.masthead {
 }
 
 #myBtn:hover {
-  background-color: transparent;
-=======
+    background-color: transparent;
+}
 /*!
  * Start Bootstrap - Creative v4.0.0-beta.2 (https://startbootstrap.com/template-overviews/creative)
  * Copyright 2013-2017 Start Bootstrap
@@ -807,5 +807,4 @@ header.masthead {
   margin-left: 90%;
   width: 100px;
   height: 100px;
->>>>>>> 789452bb50b8689ec998d3de13f86ed80289b5dc
 }
