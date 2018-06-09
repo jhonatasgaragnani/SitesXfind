@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 (function($) {
   "use strict"; // Start of use strict
 
@@ -76,7 +76,7 @@
 })(jQuery); // End of use strict
 
 
-=======
+
 (function($) {
   "use strict"; // Start of use strict
 
@@ -153,4 +153,3 @@
 
 })(jQuery); // End of use strict
 
->>>>>>> 789452bb50b8689ec998d3de13f86ed80289b5dc
