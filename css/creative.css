@@ -371,6 +371,13 @@ header.masthead {
   padding: 80px 0 60px;
 }
 
+
+.img-block{
+    width: 100%;
+    height: auto;
+
+}
+
 .text-red {
   color: #7f0500;
 }
@@ -812,6 +819,103 @@ header.masthead {
 }
 
 .img-top{
-    width: 100px;
+    width: 60px;
     height: auto;
 }
+
+/*Login img and Logo*/
+
+.logo-img {
+    width: 300px;
+    height: auto;
+}
+
+.img-login{
+    width: 130px;
+    height: auto;
+}
+
+
+/*Login*/
+
+
+@import url('https://fonts.googleapis.com/css?family=Numans');
+
+.login-body{
+    background-image: url('../img/header2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    font-family: 'Numans', sans-serif;
+}
+
+.card{
+    height: 370px;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 400px;
+    background-color: rgba(0,0,0,0.5) !important;
+}
+
+.social_icon span{
+    font-size: 60px;
+    margin-left: 10px;
+    color: #7f0500;
+}
+
+.social_icon span:hover{
+    color: white;
+    cursor: pointer;
+}
+
+.card-header h3{
+    color: white;
+}
+
+.social_icon{
+    position: absolute;
+    right: 20px;
+    top: -45px;
+}
+
+.input-group-prepend span{
+    width: 50px;
+    background-color: #7f0500;
+    color: #444444;
+    border:0 !important;
+}
+
+
+.remember{
+    color: white;
+}
+
+.remember input
+{
+    width: 20px;
+    height: 20px;
+    margin-left: 15px;
+    margin-right: 5px;
+}
+
+.login_btn{
+    color: #444444;
+    background-color: #7f0500;
+    width: 100px;
+}
+
+.login_btn:hover{
+    color: #444444;
+    background-color: white;
+}
+
+.links{
+    color: white;
+}
+
+.links a{
+    margin-left: 4px;
+}
+
+
+
